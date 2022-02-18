@@ -1,6 +1,9 @@
 # Implicit Equivariance in Convolutional Networks
+Link to the paper- https://arxiv.org/pdf/2111.14157.pdf
+
 Remaining Code will be uploaded soon
-#Abstract
+
+# Abstract
 Convolutional Neural Networks (CNN) are inherently equivariant under translations, however, they do not have an equivalent embedded mechanism to handle other transformations such as rotations
 and change in scale. Several approaches exist that
 make CNNs equivariant under other transformation
