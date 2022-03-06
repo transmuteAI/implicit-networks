@@ -49,3 +49,6 @@ After adjusting parameters and hyperparameters, just run ```main.py```
 ```bash
 usage: python main.py
 ```
+## License
+
+This project is licensed under the MIT License.
