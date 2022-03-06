@@ -1,7 +1,7 @@
 # Implicit Equivariance in Convolutional Networks
 
 #### 1. Overview [[Paper]](https://arxiv.org/pdf/2111.14157.pdf)
-This repository consists of the official implementation of the paper "Implicitly Equivariant Networks (IEN)". Standard CNNs are inherently equivariant under translations, however they are not equivariant under other transformations such as rotation and change in scale. IEN induce equivariance in the different layers of a standard CNN model by optimizing a multi-objective loss function that combines the primary loss with an equivariance loss term. More details can be found [here](https://arxiv.org/abs/2111.14157).
+This repository consists of the official implementation of the paper "[Implicit Equivariance in Convolutional Networks](https://arxiv.org/abs/2111.14157)". Standard CNNs are inherently equivariant under translations, however they are not equivariant under other transformations such as rotation and change in scale. In our works we induced equivariance implicitly in the different layers of a standard CNN model by optimizing a multi-objective loss function. More details can be found [here](https://arxiv.org/abs/2111.14157).
 
 #### 2. Dependencies
 
