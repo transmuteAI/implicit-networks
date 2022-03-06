@@ -3,7 +3,6 @@ from utils import DatasetLoader,init_weights,OneCycle
 import random, math, os, pickle, sys
 import numpy as np
 from tqdm import tqdm
-import yaml
 from models.CNNBasic import CNNBasic
 from models.Resnet18 import ResNet18
 from models.VGG import VGG
