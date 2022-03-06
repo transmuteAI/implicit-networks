@@ -14,7 +14,7 @@ This repository consists of the official implementation of the paper "[Implicit 
 
 - <b>Rot-MNIST</b>: It is a variation of the popular MNIST dataset containing handwritten digits. In Rot-MNIST, the digits are rotated by an angle generated uniformly between 0 and 2π radians.[Link to this dataset](http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip)
 - <b>Rot-TIM</b>: It is a variation of the variation of TinyImageNet dataset which is a miniature version of the ImageNet Dataset. In Rot-TIM, images are rotated by an angle generated uniformly between 0 and 2π radians.[Link to this dataset ](https://drive.google.com/file/d/1bkFvJQNNM1kczghmkHIcDQ2aO_rqh_3p/view)
-- <b>R2-TIM</b>: This dataset is the same as Rot-TIM apart from the fact that some images were flipped at random along the horizontal or vertical axis.[LLink to this dataset](https://drive.google.com/file/d/1fkGRK0MQrEHxq4VTAYUxhVvkZNieDF-a/view)
+- <b>R2-TIM</b>: This dataset is the same as Rot-TIM apart from the fact that some images were flipped at random along the horizontal or vertical axis.[Link to this dataset](https://drive.google.com/file/d/1fkGRK0MQrEHxq4VTAYUxhVvkZNieDF-a/view)
 
 #### 4. Train Model
 Edit params dictionary in ```main.py```. Choose parameters from the following options: <br>
@@ -45,7 +45,7 @@ Hyper-parameters for Cyclic LR:
 > ```cyc_size``` : Number of epochs for one cycle. ```Default : 70```<br>
 > ```dec_scale``` : Factor by which peak LR decreases for next cycle. ```Default : 1```<br>
 
-After adjusting parameters and hyperparameters, run ```main.py```
+After adjusting parameters and hyperparameters, just run ```main.py```
 ```bash
 python main.py
 ```
