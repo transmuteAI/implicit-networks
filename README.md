@@ -3,10 +3,11 @@
 #### 1. Overview
 This repository consists of the official implementation of the paper "[Implicit Equivariance in Convolutional Networks](https://arxiv.org/abs/2111.14157)". Standard CNNs are inherently equivariant under translations, however they are not equivariant under other transformations such as rotation and change in scale. In our works we induced equivariance implicitly in the different layers of a standard CNN model by optimizing a multi-objective loss function. More details can be found [here](https://arxiv.org/abs/2111.14157).
 
-#### 2. Installing dependencies
+#### 2. Prerequisites
 
+Install prerequisites with:
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 #### 3. Download Datasets
@@ -46,5 +47,5 @@ Hyper-parameters for Cyclic LR:
 
 After adjusting parameters and hyperparameters, just run ```main.py```
 ```bash
-python main.py
+usage: python main.py
 ```
