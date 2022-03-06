@@ -47,4 +47,4 @@ Hyper-parameters for Cyclic LR:
 After adjusting parameters and hyperparameters, just run ```main.py```
 ```bash
 python main.py
-``
+```
